@@ -56,6 +56,46 @@
                 <td>9/10</td>
             </tr>
         </table>
+
+        <h2>Form Example</h2>
+        <form action="">
+            <p>
+                <label for="firstname">First Name</label>
+                <input type="text" name="firstname" id="firstname" placeholder="Arsenic" autocomplete="on" required autofocus>
+            </p>
+            
+            <p>
+                <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" id="lastname" placeholder="FTW" autocomplete="on" required >
+            </p>
+            <p>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Secret"  required >
+            </p>
+            <p>
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" id="phone" placeholder="555-555-5555"  required pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
+            </p>
+            <p>
+                <label for="anime">Anime</label>
+                <select name="anime" id="anime">
+                    <optgroup label="Legendary">
+                    <option value="Naruto">Naruto</option>
+                    <option value="One Peice">One Piece</option>
+                    </optgroup>
+                    <optgroup label="Master">
+                    <option value="Jujutsu Kiasen">Jujutsu Kaisen</option>
+                    <option value="Jujutsu Kiasen">Death Note</option>
+                    <option value="Jujutsu Kiasen">Code Geass</option>
+                    <option value="Jujutsu Kiasen">Attack on Titan</option>
+                    <option value="Jujutsu Kiasen">Demon Slayer</option>
+                    </optgroup>
+                    
+                </select>
+            </p>
+            
+        </form>
+
      
     </main>
 </body>
