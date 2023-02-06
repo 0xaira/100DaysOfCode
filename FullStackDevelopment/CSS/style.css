@@ -1,72 +1,17 @@
-/* *{
-    font-family: 'Times New Roman', Times, serif;
-}
-body{
-    font-size: 20px;
-}
-p{
-    
-    color: purple;
-}
-.t{
-    color: aqua;
-}
-.s{
-    color: chartreuse;
-}
-#first{
-    font-style: italic;
-}
-h1,h2{
-    color: orangered;
-}
-p span{
-    background-color: black;
-} */
-
-/* body{
-    background-color: aqua;
-    font-size: 18px;
-    line-height: 1.5;
-    font-family: sans-serif;
-    color: darkorchid;
-
-}
-p{
-    color: rgb(250, 4, 250)
-} */
-/* *{
-margin: 0;
-padding: 0;
-}
-    
-
-body{
-    background-color: aqua;
-    font-size: 18px;
-    line-height: 1.5;
-    font-family: sans-serif;
-    color: darkorchid;
-
-}
-h1{
-    border: 2px dashed blueviolet;
-    width: 50%;
-    font-size: 2rem;
-    padding: 0.5rem;
-}
-p{
-    color: rgb(250, 4, 250) 
-} */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    }
-.container{
-    border: 2px dashed blueviolet;
-   
-    font-size: 1.5rem;
-    margin: 1.5rem;
-    padding: 1.5em;
+}
+header{
+    width: 50%;
+}
+h1{
+    font-size: 40px;
+    color: aqua;
+    border: 2px dashed ;
+    width: 90%;
+}
+p{
+    font-size: 2 rem;
 }
