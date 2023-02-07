@@ -1,8 +1,18 @@
 body{
     padding: 25%;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
-p{
-    text-decoration: dashed;
-    text-transform: capitalize;
+
+a{
+  color: aqua;
+  text-decoration: none;
+}
+a:visited {
+    color: blueviolet;
+}
+a:hover a:focus{
+    color: brown;
+}
+a:active{
+    color: aquamarine;
 }
