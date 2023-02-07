@@ -1,12 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body{
+    padding: 25%;
+    font-size: 1rem;
 }
-.container{
-    border: dashed indianred;
-    font-size: 1.5rem;
-    padding: 1.5rem;
-    margin: 1.5rem;
-
+p{
+    text-decoration: dashed;
+    text-transform: capitalize;
 }
