@@ -3,15 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{
-    width: 50%;
-}
-h1{
-    font-size: 40px;
-    color: aqua;
-    border: 2px dashed ;
-    width: 90%;
-}
-p{
-    font-size: 2 rem;
+.container{
+    border: dashed indianred;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    margin: 1.5rem;
+
 }
