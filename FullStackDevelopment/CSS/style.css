@@ -1,27 +1,10 @@
 
-body{
-    font-size: 1.5rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.columns{
+    columns: 4 250px;
+    column-rule: 3px solid black;
+    column-gap: 3rem;
 }
-.block{
-    width: 30vw;
-    height: 30vw;
-    background-color: aqua;
-    color: aliceblue;
-    padding: 1rem;
-}
-.left{
-float: left;
-margin-right: 1rem;
-}
-.right{
-    float: right;
-    margin-left: 1rem;
-}
-section{
-    background-color: antiquewhite;
-    padding: 1rem;
-    border: 4px solid black;
-    display: flow-root;
+.columns p{
+    margin-top: 0;
 }
 
