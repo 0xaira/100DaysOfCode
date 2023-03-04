@@ -1,0 +1,20 @@
+body{
+    font-size: 2rem;
+    color: cornflowerblue;
+    background-color: crimson;
+}
+p{
+    font-size: 36px;
+    color: rgb(7, 10, 10);
+    background-color: aquamarine;
+}
+.a1{
+  background-color: chartreuse;
+  color: darkviolet;
+  font-size: 20px;
+}
+.a2{
+    background-color: rgb(218, 229, 14);
+    color: rgb(192, 13, 162);
+    font-size: 1em;
+  }
