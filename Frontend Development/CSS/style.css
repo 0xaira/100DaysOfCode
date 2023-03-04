@@ -1,0 +1,15 @@
+main{
+    font-size: 2rem;
+}
+a{
+    color: blueviolet;
+}
+a:visited{
+    color: aqua;
+}
+a:hover{
+    color: chartreuse;
+}
+a:active{
+    color: blue;
+}
