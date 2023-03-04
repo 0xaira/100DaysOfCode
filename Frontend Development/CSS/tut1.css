@@ -1,0 +1,23 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+body{
+    font-size: 1rem;
+    color: rebeccapurple;
+}
+h1, h2{
+    color: lawngreen;
+}
+h2{
+    color: purple;
+}
+.a1{
+    color: rgb(0, 255, 255);
+}
+.a2{
+    color: rgb(20, 148, 105);
+}
+.a3{
+    color: rgb(225, 130, 14);
+}
