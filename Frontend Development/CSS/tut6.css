@@ -1,0 +1,40 @@
+*{
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+}
+main{
+    font-size: 2rem;
+}
+h1{
+    color: rgb(5, 5, 246);
+    font-size: 3rem;
+    
+}
+a{
+    color: blueviolet;
+}
+a:visited{
+    color: aqua;
+}
+a:hover{
+    color: chartreuse;
+}
+a:active{
+    color: blue;
+}
+li{
+    padding: 2rem;
+    margin: 1rem;
+    list-style: square;
+    text-align: left;
+    list-style-position: inside;
+    color: rgb(124, 3, 184);
+
+}
+::marker{
+    color: rgb(15, 103, 73);
+    content: "Topics-->";
+    -webkit-text-stroke: 2px;
+
+}
