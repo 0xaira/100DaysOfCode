@@ -1,0 +1,25 @@
+body{
+    font-size: 1.5rem;
+}
+.block{
+    height: 30vh;
+    width: 30vh;
+    background-color: rgb(72, 231, 9);
+    color: aliceblue;
+    padding: 1rem;
+}
+.left{
+    float: left;
+    margin-right: 1rem;
+}
+.right{
+    float: right;
+    margin-left: 1rem;
+}
+.clear{
+    /* clear: both; */
+}
+section{
+    background-color: aqua;
+    display: flow-root;
+}
