@@ -1,0 +1,30 @@
+body{
+    font-size: 1.5rem;
+
+}
+.columns{
+    column-count: 4;
+    column-width: 250px;
+    column-rule:6px solid rebeccapurple ;
+    column-gap: 3rem;
+
+}
+.columns p{
+    margin-top: 0;
+}
+.columns h2{
+    margin-top: 0;
+    background-color: aqua;
+    color: rgb(11, 93, 65);
+    padding: 1rem;
+    break-inside: avoid;
+
+
+}
+ .quote{
+       margin-top: 2rem;
+       font-size: 3rem;
+       text-align: center;
+       color: black;
+       column-span: all;
+}                
