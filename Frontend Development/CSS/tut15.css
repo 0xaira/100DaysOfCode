@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.nowrap{
+    white-space: nowrap;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header,footer{
+    position: sticky;
+    background-color: darkorchid;
+    text-align: center;
+
+}
+header{
+    top: 0;
+    
+}
+nav{
+    background-color: rgb(3, 230, 154);
+    padding: 0.5rem;
+    border-bottom: 2px solid blueviolet;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-evenly;
+}
