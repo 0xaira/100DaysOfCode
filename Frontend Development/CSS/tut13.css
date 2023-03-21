@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 body{
-    min-height: 100vh;
     background-color: rgb(232, 39, 39);
     background-image: url("../CSS/images/a1.webp");
     background-position: top center;
+    min-height: 100vh;
 }
 .nowrap{
     white-space: nowrap;
